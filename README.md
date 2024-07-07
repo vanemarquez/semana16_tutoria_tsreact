@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Catálogo de Razas de Perros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto muestra un catálogo de razas de perros utilizando React con TypeScript. Cada raza tiene su propia tarjeta con información detallada como nombre,  tamaño y temperamento.
 
-Currently, two official plugins are available:
+## Componentes Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### DogBreedsList
+Renderiza la lista de razas de perros.
 
-## Expanding the ESLint configuration
+### DogBreedCard
+ Muestra detalles específicos de cada raza en tarjetas individuales.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Datos de Razas de Perros
 
-- Configure the top-level `parserOptions` property like this:
+Utiliza un array de objetos para almacenar información detallada sobre diferentes razas de perros, incluyendo propiedades como nombre, tamaño y temperamento.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Capturas de Pantalla
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Labrador](screenshots/labrador.png)
+![Schnauzer](screenshots/schnauzer.png)
+![Bulldog Francés](screenshots/french_bulldog.png)
+
+
